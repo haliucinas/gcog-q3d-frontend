@@ -1,0 +1,46 @@
+{
+  "name": "gcog_q3a_server_web",
+  "version": "1.0.0",
+  "description": "GCOG Q3A Server Web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/haliucinas/gcog_q3a_web.git"
+  },
+  "author": "haliucinas <mantas@jonytis.eu>",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --mode=development",
+    "stats": "webpack --mode=production --json > stats.json"
+  },
+  "dependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-proposal-object-rest-spread": "latest",
+    "@babel/preset-env": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-inferno": "latest",
+    "babel-plugin-syntax-jsx": "latest",
+    "clean-webpack-plugin": "latest",
+    "coffee-loader": "latest",
+    "coffeescript": "latest",
+    "compression-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "file-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "html-webpack-template": "latest",
+    "inferno": "latest",
+    "inferno-redux": "latest",
+    "inferno-router": "latest",
+    "lodash": "latest",
+    "mini-css-extract-plugin": "latest",
+    "node-sass": "latest",
+    "offline-plugin": "latest",
+    "redux": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "webpack-merge": "latest"
+  }
+}
