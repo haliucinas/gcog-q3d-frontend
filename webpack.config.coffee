@@ -10,6 +10,7 @@ PATHS =
 	]
 	style: [
 		path.join(__dirname, 'assets', 'style', 'main.scss')
+		path.join(__dirname, 'node_modules', 'spectre.css', 'dist', 'spectre.min.css')
 	]
 	fonts: path.join(__dirname, 'assets', 'fonts')
 	build: path.join(__dirname, 'build')

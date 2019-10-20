@@ -1,10 +1,10 @@
 {
-  "name": "gcog_q3a_server_web",
-  "version": "1.0.0",
-  "description": "GCOG Q3A Server Web",
+  "name": "gcog-q3d-frontend",
+  "version": "0.0.1",
+  "description": "GCOG Q3D Frontend",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/haliucinas/gcog_q3a_web.git"
+    "url": "git+https://github.com/haliucinas/gcog-q3d-frontend"
   },
   "author": "haliucinas <mantas@jonytis.eu>",
   "license": "ISC",
@@ -37,6 +37,7 @@
     "offline-plugin": "latest",
     "redux": "latest",
     "sass-loader": "latest",
+    "spectre.css": "latest",
     "style-loader": "latest",
     "webpack": "latest",
     "webpack-cli": "latest",
